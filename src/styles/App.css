@@ -1,0 +1,17 @@
+.app {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.appWrap {
+    display: inherit;
+}
+.appWrapNav {
+    width: 60px;
+}
+
+.appWrapMain {
+    width: 100%;
+}

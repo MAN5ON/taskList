@@ -1,0 +1,48 @@
+.tasks {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    word-wrap: break-word;
+}
+
+.tasksHeader {
+    display: inherit;
+    height: 76px;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    color: #11142D;
+}
+
+.tasksHeader h1 {
+    margin-left: 90px;
+}
+
+
+
+.tasksBody {
+    display: inherit;
+    justify-content: center;
+}
+
+.tasksBodyTable {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+}
+
+.tasksBodyTable td {
+    padding: 0;
+}
+
+.taskBodyTableHead {
+    background-color: #F7F7FC;
+    font-weight: 700;
+}
+
+.taskBodyTableHead th {
+    padding: 16px 8px;
+    text-align: center;
+}

@@ -1,0 +1,42 @@
+.listTempTable {
+    table-layout: fixed;
+    border-collapse: collapse;
+    font-size: 14px;
+    width: 100%;
+}
+
+.listTempTableHead {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-weight: 400;
+    background-color: #E1E1FB;
+    cursor: pointer;
+}
+
+.listTempTableHead label {
+    display: inline-block;
+    width: 200px;
+}
+
+.listTempTableHeadClose {
+    transform: rotate(180deg);
+}
+.listTempTableBody {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table {
+    overflow: hidden;
+    transition: max-height .5s;
+    max-height: 0px;
+}
+
+.opened {
+    max-height: 400vw;
+    transition: max-height .5s;
+}

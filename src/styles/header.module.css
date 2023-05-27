@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+h1, h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+.headerIntro, .headerUser {
+    display: inherit;
+    align-items: center;
+}
+
+.headerUser {
+    padding-right: 35px;
+}
+
+.headerIntroLogo, .headerUserAvatar {
+    height: 40px;
+    width: 40px;
+    background-color: #E2E2EA;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.headerIntro h1 {
+    padding-left: 8px;
+}
+
+.headerUserNotifications {
+    cursor: pointer;
+}
+
+.headerUserAvatar {
+    margin: 0 17px 0 33px;
+    border-radius: 20px;
+}
+
+.headerUserInfoJob {
+    font-size: 12px;
+    color: #9A9AB0;
+}

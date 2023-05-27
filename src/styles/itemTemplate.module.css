@@ -1,0 +1,50 @@
+.item {
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    height: 75px;
+}
+
+.item td {
+    padding: 0 5px;
+}
+
+.itemStatus {
+    cursor: pointer;
+    position: relative;
+}
+
+.pickedItemStatus {
+    width: 110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border: 0.5px solid #000000;
+    border-radius: 8px;
+}
+
+.itemStatusList {
+    position: absolute;
+    transform: translate(0, -15%) ;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #F7F7FC;
+    border-radius: 8px;
+    border: 0.5px solid #000000;
+    text-align: left;
+}
+
+.itemStatusList li {
+    padding: 10px;
+    width: 110px;
+}
+
+.itemStatusList li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.item:hover {
+    background-color: #71FACA;
+}
