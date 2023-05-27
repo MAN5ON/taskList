@@ -4,7 +4,7 @@ import smallArr from "../../../../assets/smallArr.svg";
 import {useState} from "react";
 
 export const ItemTemplate = (item: ITableItem) => {
-    const statuses = ["В работе", "На паузе", "Выполнена"];
+    const statuses: ("В работе" | "На паузе" | "Выполнена")[] = ["В работе", "На паузе", "Выполнена"];
 
     const [openList, setOpen] = useState(false);
     const toggleOpen = () => setOpen(!openList);
