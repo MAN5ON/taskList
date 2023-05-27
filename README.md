@@ -4,7 +4,7 @@
 согласно [figma](https://www.figma.com/file/Jv0SzaUCbJsTu7yc6grf2O/%D0%A2%D0%B5%D1%81%D1%82%D0%BE%D0%B2%D0%BE%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-react?type=design&node-id=2-2077&t=KYsyB0axJAWhaJXX-0)
 макету.
 
-Ссылка на gitHub Pages - [**ТЫК**]()
+Ссылка на gitHub Pages - [**ТЫК**](https://man5on.github.io/taskList/)
 
 Проект написан на:
 - Vite;
